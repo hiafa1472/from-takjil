@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BERKAH RAMADHAN</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div id="SettingJam" class="clock" onload="showTime()"></div>
+  <script src="./script.js"></script>
+
+  <div class="header">
+    <h2>
+      <center>FORM PENGAMBILAN TAKJIL</center>
+    </h2>
+  </div>
+  <div class="from">
+    <p>"Form Pembagian Takjil Masjid Al-Ikhlas"</p>
+  </div>
+
+  <div class="content">
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <label for="Nama">Nama </label>
+          </td>
+          <td></td>
+          <td>
+            <input type="text" id="Nama" placeholder="" style="margin-left: 50px;"></input>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
+          <td></td>
+          <td>
+            <select style="margin-left: 50px;">
+              <option value=""></option>
+              <option value="laki-laki">Laki-laki</option>
+              <option value="perempuan">Perempuan</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="NIK">NIK</label></td>
+          <td></td>
+          <td><input type="text" id="NIK" placeholder="" style="margin-left: 50px;"></input></td>
+        </tr>
+
+        <tr>
+          <td><label for="Alamat">Alamat</label></td>
+          <td></td>
+          <td><input type="text" id="Alamat" placeholder="" style="margin-left: 50px;"></input></td>
+        </tr>
+
+        <tr>
+          <td><label for="Waktu">Waktu</label></td>
+          <td></td>
+          <td><input type="date" id="Waktu" style="margin-left: 50px;" /></td>
+
+        </tr>
+
+        <tr>
+          <td><label for="Pilih Menu">Pilih Menu</label></td>
+          <td></td>
+          <td>
+            <select style="margin-left: 50px;">
+              <option value=""></option>
+              <option value="Sayur Sop">Sayur Sop</option>
+              <option value="Ayam Geprek">Ayam Geprek</option>
+              <option value="Bebek Rica">Bebek Rica</option>
+              <option value="Nasi Soto">Nasi Soto</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Pilih Minum">Pilih Minum</label></td>
+          <td></td>
+          <td>
+            <select style="margin-left: 50px;">
+              <option value=""></option>
+              <option value="Air Putih">Air Putih</option>
+              <option value="Es Buah">Es Buah</option>
+              <option value="Es Coklat">Es Coklat</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="uploadfoto">Upload Foto</label></td>
+          <td></td>
+          <td><input type="file" class="form-control-file" id="uploadfoto" style="margin-left: 50px;"></td>
+        </tr>
+
+        <tr>
+          <td><b><button type="submit" id="Submit">Submit</button></b></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+
+
+</html>
